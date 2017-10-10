@@ -1,0 +1,47 @@
+    .bar .face {
+      shape-rendering: geometricPrecision;
+      stroke: #4286b4;
+      stroke-width: .7px;
+    }
+    .bar .face.front {
+      fill: #4286b4;
+    }
+
+    .bar .face.top {
+      fill: #3b82bd;
+    }
+
+    .bar .face.left,
+    .bar .face.right {
+      fill: #3675a9;
+    }
+
+    .bar:hover .face {
+      stroke: #A52A2A;
+    }
+    .bar:hover .face.front {
+      fill: #A52A2A;
+    }
+    .bar:hover .face.top {
+      fill: #991920;
+    }
+
+    .bar:hover .face.left,
+    .bar:hover .face.right {
+      fill: #8e181e;
+    }
+
+    .axis {
+      font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .x.axis path {
+      display: none;
+    }
